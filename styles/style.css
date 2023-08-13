@@ -10,7 +10,7 @@ a{
 
 
 .home-header{
-    height: 1070px;
+  
     background-image: url("../images/Sans\ titre-1.png");
     
 }
@@ -150,7 +150,7 @@ footer{
 @media (max-width: 500px){
 
     #responsive-image-img1{
-        top: 40%;
+        top: 25%;
 
         max-width: 100%; 
     }
