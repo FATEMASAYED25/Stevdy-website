@@ -1,0 +1,161 @@
+
+
+p{
+    padding-top:15px;
+}
+
+a{
+    color: white;
+}
+
+
+.home-header{
+    height: 1070px;
+    background-image: url("../images/Sans\ titre-1.png");
+    
+}
+
+.mid-section{
+   position: relative;
+
+    margin-top: 100px;
+}
+.sideimg{
+    position: absolute;
+  
+}
+.top-border{
+    position: relative;
+    padding-top: 10px;
+}
+.top-border::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20%;
+    height: 4px; /* Adjust this value to control the thickness of the border */
+    background-color:#FF6057; /* Adjust the color as needed */
+}
+.icon-overly{
+    width: 35px; /* Adjust this value to control the size of the circle */
+    height: 35px; /* Adjust this value to control the size of the circle */
+    border-radius: 50%; /* This creates the circular shape */
+    text-align: center;
+    padding: 4px;
+}
+.responsive-image{
+     position: absolute;
+
+   margin-top: 400px;    
+}
+
+#responsive-image-img1{
+    right: 67%;
+    top: -100px;
+    max-height: 70%;
+  
+}
+#responsive-image-img2{
+    right: 50%;
+    top: -639px;
+
+}
+#responsive-image-img3{
+    
+    right:0%;
+    top: -639px;
+    max-width:50%;
+    max-height: 70%;
+}
+
+.bottom-section{
+    position: relative;
+    margin-top: 100px;
+}
+
+.left-border {
+    position: relative;
+    padding-left: 10px; /* Change to padding-left to create space for the border */
+}
+
+.left-border::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 4px; /* Adjust this value to control the thickness of the border */
+    height: 100%; /* Change height to 100% to create a left border */
+    background-color: gray; /* Adjust the color as needed */
+}
+
+footer{
+    background-color: balck;
+}
+.mx{
+    margin-top: 100px;
+    color:white;
+    background-color: #333333;
+}
+.carousel-indicators button{
+    border-radius: 50%; /* Makes the button circular */
+    width: 10px; /* Adjust the width and height to your preference */
+    height: 10px;
+    margin-right: 1px;
+    border: none;
+}
+.carousel-indicators .active {
+    background-color: #FF6057;
+    opacity: 1;
+}
+.input-change{
+    position: relative;
+    border-radius: 50%;
+    background-color: white;
+    width:100%;
+    padding:0
+}
+.change{
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-radius: 15px;
+    background-color: #FF6057;
+    width:40%
+}
+.gradient{
+    background: linear-gradient(#7C1C80,#FF6057);
+    border-radius: 5px;
+    color:white;
+    font-weight: bolder;
+}
+
+
+@media (max-width: 768px) {
+    .responsive-image {
+        max-width: 80%; 
+        max-height: 80%;
+        top: -198px;
+    }
+    #responsive-image-img1{
+        top: 35%;
+        max-height: 50%;
+        max-width: 50%; 
+    }
+    #responsive-image-img3{
+        display: none;
+    }
+}
+
+@media (max-width: 500px){
+
+    #responsive-image-img1{
+        top: 40%;
+
+        max-width: 100%; 
+    }
+    #responsive-image-img2{
+        right: 25%;
+    
+}
+}
