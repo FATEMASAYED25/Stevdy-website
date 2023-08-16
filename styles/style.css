@@ -57,17 +57,37 @@ a {
 
 }
 
+
 .img1{
     max-width: 100%;
     max-height: 100%;
 }
 
 .home-header {
-
+    position: relative;
     background-image: url("../images/Sans\ titre-1.png");
     background-repeat: no-repeat;
     height: 1080px;
 }
+
+.special{
+    margin-top:14rem;
+}
+.custom{
+    max-width: 60.78rem;
+    max-height: 83.357rem;
+    position: absolute;
+    bottom: -90px;
+    right: -25%;
+   }
+   .custom img {
+       width: 100%;
+   }
+   .custom-title{
+    max-width: 35rem;
+   color: white;
+   
+   }
 
 .top-space{
     margin-top:15%;
@@ -248,6 +268,21 @@ footer {
 
 
 
+
+@media (max-width: 1200px) {
+
+    .special{
+        margin-top:8rem;
+    }
+    .custom{
+        position: unset;
+    }
+
+    .custom-title{
+        max-width: 100%;
+       
+       }
+}
 @media (max-width: 768px) {
 
  
