@@ -123,17 +123,34 @@ a {
     
 
 }
+.my-toggler{
+  
+
+    cursor: pointer;
+    transform: scaleX(1.5);
+    width:40px;
+    height:40px;
+    background-color: transparent;
+    border: none;
+   
+}
+
+
+
 
 .icon-overly {
-    width: 35px;
+    width: 5.643rem;
     /* Adjust this value to control the size of the circle */
-    height: 35px;
+    height: 5.643rem;
     /* Adjust this value to control the size of the circle */
     border-radius: 50%;
     /* This creates the circular shape */
     text-align: center;
-    padding: 4px;
+    padding: 1.5rem;
     margin:2px 0px;
+}
+.fourth{
+    padding: 1rem;
 }
 
 .responsive-image {
