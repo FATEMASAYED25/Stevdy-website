@@ -97,9 +97,8 @@ a {
     left: 0;
     width: 20%;
     height: 4px;
-    /* Adjust this value to control the thickness of the border */
     background-color: #FF6057;
-    /* Adjust the color as needed */
+
 }
 
 .dengrus{
@@ -110,11 +109,8 @@ a {
 
 .points{
     width: 3.786rem;
-    /* Adjust this value to control the size of the circle */
     height: 3.786rem;
-    /* Adjust this value to control the size of the circle */
     border-radius: 50%;
-    /* This creates the circular shape */
     text-align: center;
     padding: 1rem;
     margin:.5rem 1.25rem ;
@@ -141,11 +137,8 @@ a {
 
 .icon-overly {
     width: 5.643rem;
-    /* Adjust this value to control the size of the circle */
     height: 5.643rem;
-    /* Adjust this value to control the size of the circle */
     border-radius: 50%;
-    /* This creates the circular shape */
     text-align: center;
     padding: 1.5rem;
     margin:2px 0px;
@@ -188,7 +181,7 @@ a {
 
 .left-border {
     position: relative;
-    padding-left: 3.429rem;
+    padding: 0 15px 0  3.429rem ;
     margin-left: 3rem;
  
 }
@@ -199,11 +192,9 @@ a {
     top: 0;
     left: 0;
     width: 4px;
-    /* Adjust this value to control the thickness of the border */
     height: 100%;
-    /* Change height to 100% to create a left border */
     background-color: gray;
-    /* Adjust the color as needed */
+
 }
 
 footer {
@@ -218,9 +209,7 @@ footer {
 
 .carousel-indicators button {
     border-radius: 50%;
-    /* Makes the button circular */
     width: 10px;
-    /* Adjust the width and height to your preference */
     height: 10px;
     margin-right: 1px;
     border: none;
