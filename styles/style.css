@@ -117,7 +117,8 @@ a {
     /* This creates the circular shape */
     text-align: center;
     padding: 1rem;
-    margin:5px;
+    margin:.5rem 1.25rem ;
+    
     background-color:#FF6057;
     color:white;
     
@@ -187,8 +188,8 @@ a {
 
 .left-border {
     position: relative;
-    padding-left: 32px;
-    margin-left: 29px;
+    padding-left: 3.429rem;
+    margin-left: 3rem;
  
 }
 
