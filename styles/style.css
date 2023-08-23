@@ -74,11 +74,12 @@ a {
     margin-top:14rem;
 }
 .custom{
-    max-width: 60.78rem;
+    width:65%;
+    max-width:  60.786rem;
     max-height: 83.357rem;
     position: absolute;
     bottom: -90px;
-    right: -25%;
+    right: -13%;
    }
    .custom img {
        width: 100%;
