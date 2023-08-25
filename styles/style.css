@@ -71,7 +71,7 @@ a {
 }
 
 .special{
-    margin-top:14rem;
+    margin-top:10%;
 }
 .custom{
     width:65%;
@@ -79,7 +79,7 @@ a {
     max-height: 83.357rem;
     position: absolute;
     bottom: -90px;
-    right: -13%;
+     left:43%;
    }
    .custom img {
        width: 100%;
@@ -272,12 +272,20 @@ footer {
 }
 
 
+@media (max-width: 1330px){
 
+    .custom{
+        bottom: -45px;
+        width:60%;
+        
+    }
+}
 @media (max-width: 1200px) {
 
 
     .custom{
-        position: unset;
+        position: static;
+        width: 100%;
     }
 
     .custom-title{
@@ -309,6 +317,9 @@ footer {
         top: -11%;
      
     }
+    .special2{
+        margin-top: 0px;
+    }
 }
 
 @media (max-width: 500px) {
@@ -326,7 +337,5 @@ footer {
         right: 25%;
 
     }
-    .special2{
-        margin-top: 0px;
-    }
+  
 }
