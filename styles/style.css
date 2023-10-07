@@ -4,24 +4,33 @@ body {
 }
 
 html{
-    font-size: 14px;
+    font-size: 16px;
+   background-image: url("../images/Preview.png");
+   background-size: 100% auto;
+   background-position: 0px 0px;
    
 }
-
+body{
+    opacity: 70%;
+}
+p{
+   font-size: .8rem!important ;
+    font-weight: bold;
+}
 .menu{
     color:#FFFFFF;
-    font-weight: 400px;
-    font-size: 1rem;
+  
+    font-size: 0.7rem;
     margin:0px 6.5px;
 }
 
 h1{
-    font-size: 4.14rem;
+    font-size: 3rem;
     font-weight: bold;
 }
 h2{
-    font-size: 2.714rem;
-    font-weight: bold;
+    font-size: 2rem;
+   font-weight: bold;
 }
 h3{
     font-size: 2rem;
@@ -63,15 +72,21 @@ a {
     max-height: 100%;
 }
 
+.bc-image{
+    position: absolute;
+  
+    max-width: 99%;
+}
+.bc-image img{
+    width: 100%;
+   
+}
 .home-header {
-    position: relative;
-    background-image: url("../images/Sans\ titre-1.png");
-    background-repeat: no-repeat;
-    height: 1080px;
+position: relative;
 }
 
 .special{
-    margin-top:15%;
+    margin-top:8%;
 }
 .custom{
     width:65%;
@@ -85,7 +100,7 @@ a {
        width: 100%;
    }
    .custom-title{
-    max-width: 35rem;
+    max-width: 27rem;
    color: white;
    
    }
@@ -98,7 +113,7 @@ a {
 .mid-section {
     position: relative;
 
-    margin-top: 100px;
+    margin-top: 7rem;
 }
 
 .sideimg {
@@ -108,7 +123,7 @@ a {
 
 .top-border {
     position: relative;
-    padding-top: 10px;
+    padding-top: 1rem;
 }
 
 .top-border::before {
@@ -116,7 +131,7 @@ a {
     position: absolute;
     top: 0;
     left: 0;
-    width: 20%;
+    width: 30%;
     height: 4px;
     background-color: #FF6057;
 
@@ -157,8 +172,8 @@ a {
 
 
 .icon-overly {
-    width: 5.643rem;
-    height: 5.643rem;
+    width: 3.5rem;
+    height: 3.5rem;
     border-radius: 50%;
     text-align: center;
     padding: 1.5rem;
@@ -268,7 +283,8 @@ footer {
 }
 
 .special2{
-    margin-top: 5rem;
+    margin-top: 11rem;
+    
 }
 
 
@@ -317,6 +333,7 @@ footer {
         top: -11%;
      
     }
+
   
 }
 
